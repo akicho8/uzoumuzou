@@ -1,0 +1,9 @@
+#+OPTIONS: toc:nil num:nil author:nil creator:nil \n:nil |:t
+#+OPTIONS: @:t ::t ^:t -:t f:t *:t <:t
+
+* なんでもCSV化するライブラリ
+
+  : puts [{:id => 1, :name => "alice"}, {:id => 2, :name => "bob"}].to_ucsv
+  : # >> "id","name"
+  : # >> "1","alice"
+  : # >> "2","bob"
